@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple component for rendering polygons",
   "keywords": ["polygon", "polyline", "shape", "react", "reactjs"],
-  "main": "src/index.js",
+  "main": "src/Poly.js",
   "dependencies": {
     "react": "16.5.2",
     "react-dom": "16.5.2",
@@ -16,5 +16,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "author": "Kevin Brock <kbrock092684@gmail.com>",
+  "license": "MIT",
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
