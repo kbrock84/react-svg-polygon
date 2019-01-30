@@ -20,15 +20,11 @@ const Poly = props => {
 
   return (
     <svg width="100" height="100">
-      <circle
-        cx={props.cx}
-        cy={props.cy}
-        r={props.r}
-        stroke={"lightgray"}
-        strokeWidth={1}
-        fill={"none"}
+      <polyline
+        points={pointsStr}
+        fill={props.fill || "none"}
+        stroke={props.stroke || "black"}
       />
-      <polyline points={pointsStr} fill="none" stroke="black" />
     </svg>
   );
 };
