@@ -24,4 +24,4 @@ npm i react-svg-polygon
 
 ### Result
 
-![](demo/Poly%example.PNG)
+![](demo/Poly%20example.PNG)
