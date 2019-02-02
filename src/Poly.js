@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Poly = props => {
   let points = [];
@@ -26,6 +27,18 @@ const Poly = props => {
       />
     </svg>
   );
+};
+
+Poly.propTypes = {
+  r: PropTypes.number.isRequired,
+  sides: PropTypes.number.isRequired,
+  width: PropTypes.number,
+  height: PropTypes.number,
+  cx: PropTypes.number,
+  cy: PropTypes.number,
+  strokeWidth: PropTypes.number,
+  fill: PropTypes.string,
+  stroke: PropTypes.string
 };
 
 export default Poly;
