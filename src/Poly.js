@@ -18,7 +18,7 @@ const Poly = props => {
   });
 
   return (
-    <svg width={props.width || props.r * 2} height={props.width || props.r * 2}>
+    <svg width={props.width || props.r * 2} height={props.height || props.r * 2}>
       <polyline
         points={pointsStr}
         fill={props.fill || "none"}
