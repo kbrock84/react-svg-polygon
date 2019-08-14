@@ -1,6 +1,6 @@
 {
   "name": "react-svg-polygon",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "A simple component for rendering polygons",
   "keywords": [
     "polygon",
@@ -22,7 +22,7 @@
     "css-loader": "^2.1.0",
     "jest": "^24.0.0",
     "jest-dom": "^3.0.1",
-    "parcel-bundler": "^1.11.0",
+    "parcel-bundler": "^1.12.3",
     "react-dom": "^16.7.0",
     "react-testing-library": "^5.4.4",
     "style-loader": "^0.23.1",
